@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+	body {
+		background-color:lightblue;
+	}
+	h1 {
+		text-align:center;
+	}
+	form{
+		text-align:center;
+	}
+</style>
+<meta charset="UTF-8">
+<title>Login Page</title>
+</head>
+<body>
+<h1>
+	<strong><label>Please Login</label></strong>
+</h1>
+	<form action="LoginServlet" method="post">
+		<label>Login ID:</label><input type="text" name="user"/><br><br>
+		<label>Password:</label><input type="password" name="pwd"/><br><br>
+		<input type="submit" name="login" value="LOGIN"/>
+	</form>
+</body>
+</html>
